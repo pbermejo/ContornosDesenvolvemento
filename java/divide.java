@@ -1,14 +1,16 @@
 import java.util.Scanner;
-public class divide{
+public class Divide{
 	public static void main(String[] args){
 		int a, b;
-		Scanner scan;
 		
+		Scanner scan;		
 		scan = new Scanner(System.in);
-		System.out.println("Introduce el primer número entero: ");
+		
+		System.out.println("Introduce el primer numero entero: ");
 		a = scan.nextInt();
-		System.out.println("Introduce el segundo número entero: ");
+		System.out.println("Introduce el segundo numero entero: ");
 		b = scan.nextInt();
-		System.out.println("El resultado de la división es " + (a / b));
+		
+		System.out.println("El resultado de la division es " + (a / b));
 	}
 }
