@@ -1,4 +1,3 @@
-#!/usr/bin/ruby
 print "Introduce el primer número entero: "
 a = gets.chomp.to_i
 print "Introduce el segundo número entero: "
